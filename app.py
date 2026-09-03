@@ -16,7 +16,7 @@ st.markdown("Consulta las actividades, horarios y conferencistas.")
 
 # 3. Conexión a Google Sheets (Lectura en tiempo real)
 # REEMPLAZA ESTA URL CON EL ENLACE CSV QUE COPIASTE EN EL PASO 1
-SHEET_CSV_URL = "TU_ENLACE_CSV_AQUI"
+SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRlHklmNiJDAhEYYVWVB05YVUdS-DfOhhTmzJX_AE7VZHikEH4fzAsV6A_-tZe7qQ/pub?gid=2138557096&single=true&output=csv"
 
 # El decorador cache_data hace que se actualice cada 60 segundos
 @st.cache_data(ttl=60) 
